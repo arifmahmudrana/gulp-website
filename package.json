@@ -1,0 +1,39 @@
+{
+  "name": "gulp-website",
+  "version": "1.0.0",
+  "description": "A gulp boilerplate type website to do common tasks",
+  "main": "index.js",
+  "scripts": {
+    "gulp": "gulp",
+    "watch": "gulp watch",
+    "backup": "gulp backup",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Arif Mahmud Rana <arif_mahmud_rana@hotmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-babel": "^8.0.0-beta.2",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-declare": "^0.3.0",
+    "gulp-handlebars": "^5.0.2",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-livereload": "^4.0.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.1",
+    "gulp-wrap": "^0.14.0",
+    "gulp-zip": "^4.2.0",
+    "imagemin-jpeg-recompress": "^6.0.0",
+    "imagemin-pngquant": "^6.0.0"
+  },
+  "dependencies": {
+    "static-server": "^2.2.1"
+  }
+}
